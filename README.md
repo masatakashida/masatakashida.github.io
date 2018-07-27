@@ -1,10 +1,10 @@
 # README.md
 ## 開発する時
-### webpackでビルドする
+### ビルドする
 ```
-npm run build
+yarn build
 ```
 ### サーバを立ち上げる
 ```
-npm run start
+yarn start
 ```
