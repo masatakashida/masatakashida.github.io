@@ -1,0 +1,1 @@
+# masatakashida.github.io
