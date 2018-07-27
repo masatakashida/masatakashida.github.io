@@ -1,0 +1,21 @@
+.music {
+  display: flex;
+
+  & .part {
+    flex: 1;
+  }
+
+  & .m-left {
+
+  }
+
+  & .m-right {
+
+  }
+}
+
+@media screen and (max-width:780px) {
+  .music {
+    display: block;
+  }
+}

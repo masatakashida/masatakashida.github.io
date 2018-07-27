@@ -1,0 +1,45 @@
+// ページ全体
+.app {
+  // 開発用
+  //background-color: #FAFAFA;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  & .header {
+    margin-top: 30px;
+    background-color: white;
+
+    &-nav {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      padding-bottom: 5px;
+      
+      & li {
+        list-style-type: none;
+        padding-right: 15px;
+        
+        & a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+  & .content {
+
+  }
+}
+
+@media screen and (max-width:780px) {
+  .app {
+    & .header {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      padding-left: 20px;
+    }
+    & .content {
+      padding: 20px;
+    }
+  }
+}
